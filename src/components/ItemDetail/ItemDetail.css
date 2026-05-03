@@ -28,7 +28,7 @@
   font-size: 1.8rem;
   text-transform: uppercase;
   margin: 0;
-  color: #8b0000; /* ← agregá esta línea */
+  color: #8b0000;
 }
 
 .detail-description {
@@ -100,50 +100,28 @@
 }
 @media (max-width: 768px) {
   .detail-container {
-    flex-direction: column;
+    display: block !important;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
   }
 
   .detail-image img {
     width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    display: block;
   }
 
   .detail-info {
     width: 100%;
+    margin-top: 1rem;
   }
 
   .detail-info h2 {
     font-size: 1.3rem;
-  }
-}
-@media (max-width: 768px) {
-  .detail-container {
-    flex-direction: column;
-    padding: 1rem;
-    margin: 1rem;
-  }
-
-  .detail-image img {
-    width: 100%;
-  }
-
-  .detail-info {
-    width: 100%;
-    text-align: left;
-  }
-
-  .detail-info h2 {
-    font-size: 1.3rem;
-    text-align: left;
   }
 
   .detail-description {
-    text-align: left;
     font-size: 0.9rem;
-  }
-
-  .detail-price {
-    text-align: left;
   }
 }

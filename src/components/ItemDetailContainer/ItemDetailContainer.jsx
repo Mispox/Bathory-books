@@ -25,12 +25,12 @@ export const ItemDetailContainer = () => {
   if (loading) return <p>Cargando...</p>;
   if (!itemDetail) return <p>Producto no encontrado</p>;
 
-  return (
-    <section>
-      <h1>Detalles del producto</h1>
-      <div className="products-container">
-        <ItemDetail {...itemDetail} />
-      </div>
-    </section>
-  );
+ return (
+  <section>
+    <h1>Detalles del producto</h1>
+    <div className="detail-wrapper">
+      <ItemDetail {...itemDetail} />
+    </div>
+  </section>
+);
 };
