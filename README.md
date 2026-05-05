@@ -1,16 +1,28 @@
-# React + Vite
+# 📚 Bathory Books
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce de libros de terror desarrollado con React. Pre-entrega del curso de React JS de Talento Tech.
 
-Currently, two official plugins are available:
+## 🔗 Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Sitio en vivo:** [bathory.vercel.app](https://bathory.vercel.app)
+- **Repositorio:** [github.com/Mispox/Pre-entrega-react](https://github.com/Mispox/Pre-entrega-react)
 
-## React Compiler
+## 🛠️ Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- React Router DOM 7
+- Vite
+- Context API (para el carrito)
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Catálogo de productos con vista en grilla
+- Vista de detalle de cada producto
+- Carrito de compras con Context API
+- Navegación entre vistas con React Router
+- Diseño responsive
+- Reproductor de Spotify integrado
+
+## 👤 Autor
+
+Desarrollado por **Milu**
